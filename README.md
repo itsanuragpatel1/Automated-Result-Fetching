@@ -1,3 +1,7 @@
+linkedin post link :-
+https://www.linkedin.com/posts/itsanuragpatel_python-automation-selenium-activity-7247300251018022914-_7pY/
+video can be found on this linkedin post ☝️
+
 🚀 Automated Result Fetching Process  🚀
 
 
