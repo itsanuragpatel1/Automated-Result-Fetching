@@ -39,3 +39,8 @@ I automated the entire process of fetching and saving student results from a uni
 ➸ Accuracy : Automation minimizes human error, especially with repetitive tasks like CAPTCHA solving and data entry.
 
 ➸ Scalability : This solution can easily be extended for bulk data retrieval without breaking a sweat!
+
+
+tesseract OCR
+
+https://drive.google.com/drive/folders/1W41RBeEXmEh_hzge_NUNYtWeMb6yfnZk?usp=sharing
