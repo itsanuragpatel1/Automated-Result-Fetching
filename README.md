@@ -1,50 +1,34 @@
-linkedin post link :-
-https://www.linkedin.com/posts/itsanuragpatel_python-automation-selenium-activity-7247300251018022914-_7pY/
-video can be found on this linkedin post ☝️
+## 📹 Demo Video
 
-🚀 Automated Result Fetching Process  🚀
+[Watch the demo video here (linkedin post) ](https://www.linkedin.com/posts/itsanuragpatel_python-automation-selenium-activity-7247300251018022914-_7pY/)
 
+# 🚀 Automated Result Fetching Process 🚀
 
-I automated the entire process of fetching and saving student results from a university website. 
+This project automates the process of fetching and saving student results from a university website. The automation handles CAPTCHA solving, dynamic form submissions, and data extraction for multiple students efficiently.
 
+## 🔧 Technical Highlights
 
-🔧 Technical Highlights:
+- **Selenium WebDriver**: Automated the navigation of a complex web interface, handling dynamic content selection and form submission programmatically.
+- **Captcha Recognition**: Solved CAPTCHA challenges using Python’s Tesseract OCR (`pytesseract`), converting image-based CAPTCHAs into readable text for smooth form submissions.
+- **Retry Logic**: A robust retry mechanism was implemented, retrying up to 10 times to handle failures in CAPTCHA recognition.
+- **Data Scraping**: Extracted essential fields such as student name, enrollment number, SGPA, CGPA, and result status from the dynamically generated result page.
+- **Data Storage**: Scraped data is efficiently written to a structured CSV file using Python’s `csv` module, making it easy to analyze and store results across a range of enrollment numbers.
+- **Session Handling**: Implemented session reinitialization to handle multiple iterations without encountering stale element exceptions, ensuring smooth scraping.
 
-➸ Selenium WebDriver : Automated the navigation of a complex web interface with dynamic content selection and program-based form submission.
+## 🛠 Tools & Libraries Used
 
-➸ Captcha Recognition : Solved CAPTCHA challenges using Python’s Tesseract OCR (pytesseract), converting image-based CAPTCHAs into readable text for seamless form submission.
+- **Python Selenium**: For browser automation and dynamic form submission.
+- **Tesseract OCR**: To decode image-based CAPTCHA.
+- **OpenCV & Requests**: For retrieving and preprocessing CAPTCHA images from the web.
+- **CSV Module**: For efficient data storage and future scalability.
 
-➸ Retry Logic : Built a robust retry mechanism to handle failures in CAPTCHA recognition, retrying up to 10 times for accuracy.
+## 🔎 Why This Matters
 
-➸ Data Scraping : Extracted essential fields like student name, enrollment number, SGPA, CGPA, and result status from the dynamically generated result page.
-
-➸ Data Storage : Efficiently wrote the scraped data into a structured CSV file using Python’s csv module, making it easy to analyze and store the results for a range of enrollment numbers.
-
-➸ Session Handling : Implemented session reinitialization to ensure smooth scraping across multiple iterations, reloading pages and avoiding stale element exceptions.
-
-
-🛠 Tools & Libraries Used:
-
-
-➸ Python Selenium : For browser automation.
-
-➸ Tesseract OCR : To decode image-based CAPTCHA.
-
-➸ OpenCV & Requests : To retrieve and preprocess CAPTCHA images from the web.
-
-➸ CSV Module : For efficient data storage and future scalability.
+- **Efficiency Boost**: Automation of repetitive tasks saves time and increases productivity.
+- **Accuracy**: Reduces human error, especially in CAPTCHA solving and data entry.
+- **Scalability**: The solution can be extended to retrieve bulk data with minimal changes.
 
 
-🔎 Why This Matters:
+## 🛠 Tesseract OCR Setup
 
-
-➸ Efficiency Boost : Manual tasks are now automated, saving time and increasing productivity.
-
-➸ Accuracy : Automation minimizes human error, especially with repetitive tasks like CAPTCHA solving and data entry.
-
-➸ Scalability : This solution can easily be extended for bulk data retrieval without breaking a sweat!
-
-
-tesseract OCR
-
-https://drive.google.com/drive/folders/1W41RBeEXmEh_hzge_NUNYtWeMb6yfnZk?usp=sharing
+You can find Tesseract OCR setup files [here](https://drive.google.com/drive/folders/1W41RBeEXmEh_hzge_NUNYtWeMb6yfnZk?usp=sharing).
